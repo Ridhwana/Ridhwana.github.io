@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "Part 1: Setting up a basic react app with create-react-app"
-description: ""
+description: "Learn with me how to use create react app basics"
 date: 2017-06-08 11:59:20
 comments: false
 keywords: "react"
+show_excerpts: true
+excerpt: "I've been investing a lot of time recently in using React and I'd like to share with you how to build a simple react app from the basics..."
 ---
 
 I've been investing a lot of time recently in using React and I'd like to share with you how to build a simple react app from the basics. Since React does not follow strong setup conventions, there are many starter kits to assist in getting your first React app up and running. However, I firmly believe in starting simple and thereafter improving as one gets more familiar with a tool or library.
