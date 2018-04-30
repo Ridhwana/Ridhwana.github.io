@@ -5,6 +5,8 @@ description: "The essentials of time management."
 date: 2015-04-04 16:45:20
 comments: false
 keywords: "time management"
+show_excerpts: true
+excerpt: "To me, the most amazing feeling in the world is, when I create something, out of nothing, by using code.  I feel utterly rewarded and fulfilled when ..."
 ---
 
 To me, the most amazing feeling in the world is, when I create something, out of nothing, by using code.  I feel utterly rewarded and fulfilled when I've been struggling with a problem, and finally that light dawns upon me after hours of hard work and discipline. I admit, after entering the development world, I've derived a new-found appreciation for every piece of work out there on the internet, because now I know that someone has used all their blood and sweat behind the scenes, and it's not all just â€˜magic'.

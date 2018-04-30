@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "Introduction to ember-cli-jstree"
-description: ""
+description: "The nitty gritty details of hooking up ember-cli-jstree"
 date: 2017-05-28 11:50:20
 comments: false
 keywords: "ember"
+show_excerpts: true
+excerpt: "Recently, I'd been tasked with creating a sidebar. Sounds easy right? Wellllll not actually... let me elaborate..."
 ---
 
 
