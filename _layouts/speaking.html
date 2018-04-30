@@ -12,6 +12,7 @@ layout: default
   <ul class="speaking__list">
     {% for speech in site.data.speaking %}
       <li class="speaking__item">
+        <div>{{ speech.title }}</div>
         <div>{{ speech.name }}</div>
         <div>{{ speech.conference }}</div>
         <div>{{ speech.location }}</div>
