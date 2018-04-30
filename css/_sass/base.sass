@@ -1,0 +1,25 @@
+html,body
+  height: 100%
+
+body
+  margin: 0
+  display: grid
+  grid-template-areas: "header" "main" "footer"
+  grid-template-rows: $header-height 1fr $footer-height
+
+header
+  grid-area: header
+  background-color: lighten($grey-color, 10%)
+  display: flex
+  align-items: center
+
+main
+  grid-area: main
+  background-color: lighten($grey-color, 20%)
+
+footer
+  grid-area: footer
+  background-color: lighten($grey-color, 30%)
+
+.page-content
+  padding: $arbitrary-padding calc(#{$arbitrary-padding*2})

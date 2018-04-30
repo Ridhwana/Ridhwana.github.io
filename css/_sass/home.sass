@@ -1,0 +1,18 @@
+.home
+  display: grid
+  grid-template-columns: 50% 50%
+  height: 100%
+  align-items: center
+  @include media-query($mobile-large)
+    grid-template-columns: 100%
+
+.about-me__image-container
+  text-align: center
+
+.about-me__image
+  // height: calc(100vh - #{$header-height} - #{$footer-height} - #{$arbitrary-padding * 10})
+  max-width: 60%
+
+  // @include media-query($mobile-large)
+  //   max-width: 100%
+  //   height: auto
