@@ -3,6 +3,7 @@
   year: 2018
   recurring: monthly
   link: https://meetup.com/
+  logo: women_in_tech
   location: Johannesburg, South Africa
   description: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
 
@@ -11,6 +12,7 @@
   year: 2017
   recurring: monthly
   link: https://meetup.com/
+  logo: ltux
   location: Johannesburg, South Africa
   description: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
 
@@ -18,6 +20,7 @@
   role: organizer
   recurring: quarterly
   link: https://meetup.com/
+  logo: railsbridge
   location: Johannesburg, South Africa
   description: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
 
@@ -25,6 +28,7 @@
   role: mentor
   recurring: null
   link: https://blackgirlscode
+  logo: blackgirlscode
   location: Johannesburg, South Africa & Silicon Valley, USA
   description: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
 
@@ -32,5 +36,6 @@
   role: organizer
   recurring: null
   link: https://railsgirls
+  logo: railsgirls
   location: Johannesburg, South Africa
   description: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
