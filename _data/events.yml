@@ -1,0 +1,31 @@
+- name: Women In Tech ZA
+  role: organizer
+  year: 2018
+  recurring: monthly
+  link: https://meetup.com/
+  location: Johannesburg, South Africa
+
+- name: Ladies that UX
+  role: organizer
+  year: 2017
+  recurring: monthly
+  link: https://meetup.com/
+  location: Johannesburg, South Africa
+
+- name: Railsbridge 2018
+  role: organizer
+  recurring: quarterly
+  link: https://meetup.com/
+  location: Johannesburg, South Africa
+
+- name: Black Girls Code
+  role: mentor
+  recurring: null
+  link: https://blackgirlscode
+  location: Johannesburg, South Africa & Silicon Valley, USA
+
+- name: Rails Girls 2015
+  role: organizer
+  recurring: null
+  link: https://railsgirls
+  location: Johannesburg, South Africa
