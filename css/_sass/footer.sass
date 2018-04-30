@@ -6,7 +6,12 @@ footer
     margin: 0
     padding: 0
     display: grid
-    grid-template-columns: 25% 25% 25% 25% 
+    grid-template-columns: 25% 25% 25% 25%
+
+  .social-media__username
+    @include media-query($mobile-large)
+      display: none
+
 
   .social-media__icon
     width: 40px
