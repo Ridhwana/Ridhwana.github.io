@@ -6,20 +6,22 @@ body
   display: grid
   grid-template-areas: "header" "main" "footer"
   grid-template-rows: $header-height 1fr $footer-height
+  font-family: $base-font-family
+  font-size: $base-font-size
 
 header
   grid-area: header
-  background-color: lighten($grey-color, 10%)
   display: flex
   align-items: center
+  background: $primary-color
 
 main
   grid-area: main
-  background-color: lighten($grey-color, 20%)
 
 footer
   grid-area: footer
-  background-color: lighten($grey-color, 30%)
+  background: $primary-color
+  border-bottom: 3px solid darken($primary-color, 10%)
 
 .page-content
   padding: $arbitrary-padding calc(#{$arbitrary-padding*2})
