@@ -7,12 +7,13 @@
 
 .logo
   display: inline-block
-  height: calc(#{$header-height} - #{$arbitrary-padding})
+  height: calc(#{$header-height} - #{$arbitrary-padding * 2})
   vertical-align: middle
 
 .site-nav
   display: inline-block
-  line-height: $base-line-height * $base-font-size * 2.25
+  // line-height: $base-line-height * $base-font-size * 2.25
+  line-height: 40px
   float: right
   padding: 10px 20px
 
@@ -24,11 +25,12 @@
 
   .page-link
     color: $text-color
-    line-height: $base-line-height
+    text-decoration: none
+    font-size: 18px
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child)
-      margin-right: 20px
+      margin-right: 40px
 
   @include media-query($mobile-large)
     position: absolute

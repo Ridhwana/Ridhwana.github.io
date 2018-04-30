@@ -4,9 +4,9 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
-    <div class="logo__container">
+    <a href="/" class="logo__container">
       <img class="logo" src="{{ "/assets/images/logo.svg" | absolute_url }}">
-    </div>
+    </a>
 
     {%- if page_paths -%}
       <nav class="site-nav">
