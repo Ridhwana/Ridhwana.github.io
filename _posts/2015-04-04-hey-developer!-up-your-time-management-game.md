@@ -5,6 +5,7 @@ description: "The essentials of time management."
 date: 2015-04-04 16:45:20
 comments: false
 keywords: "time management"
+reading_time: '5 min'
 show_excerpts: true
 excerpt: "To me, the most amazing feeling in the world is, when I create something, out of nothing, by using code.  I feel utterly rewarded and fulfilled when ..."
 ---

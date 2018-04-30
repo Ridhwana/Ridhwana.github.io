@@ -5,6 +5,7 @@ description: "Learn with me how to use create react app basics"
 date: 2017-06-08 11:59:20
 comments: false
 keywords: "react"
+reading_time: '5 min'
 show_excerpts: true
 excerpt: "I've been investing a lot of time recently in using React and I'd like to share with you how to build a simple react app from the basics..."
 ---
@@ -38,12 +39,12 @@ $ yarn start
 
 Thereafter navigate to ```http://localhost:3000/``` to see your application.
 
-## What are we building?
+### What are we building?
 
 We're going to start off with a basic app that contains a header and a main component that will render static data.
 
 
-## Creating our header and main components
+### Creating our header and main components
 
 Once you've generated the react app, navigate to your app directory and let the fun begin!
 

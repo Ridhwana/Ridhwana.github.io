@@ -5,6 +5,7 @@ description: "The nitty gritty details of hooking up ember-cli-jstree"
 date: 2017-05-28 11:50:20
 comments: false
 keywords: "ember"
+reading_time: '10 min'
 show_excerpts: true
 excerpt: "Recently, I'd been tasked with creating a sidebar. Sounds easy right? Wellllll not actually... let me elaborate..."
 ---
@@ -13,7 +14,7 @@ excerpt: "Recently, I'd been tasked with creating a sidebar. Sounds easy right? 
 Recently, I'd been tasked with creating a sidebar. Sounds easy right? Wellllll not actually... let me elaborate.
 
 
-## Background
+### Background
 
 This particular sidebar contains the following challenges:
 
@@ -43,7 +44,7 @@ As mentioned above, the tree will contain a three level deep structure. It will 
 Lets get started!
 
 
-## Installation
+### Installation
 
 In order to use this ember addon, we install it using:
 
@@ -57,7 +58,7 @@ This will add the necessary npm and bower packages to our Ember app.
 Once installed we have access to a ember-js-tree helper/component. As the author mentions, the bare minimum required in order to configure a tree structure is to pass through the data attribute to the helper.
 
 
-## Creating a tree structure with json data
+### Creating a tree structure with json data
 
 ember-js-tree requires a very specific format to work with JSON. We define our root level nodes (i.e in our example 'companies') at the top level in the array.
 
@@ -192,7 +193,7 @@ Once we have set a data property on the controller (or perhaps in the model sinc
 And, voila!, just like that (very simply) we have our tree structure.
 Now that we have our data, the real ease of use comes in play with the search functionality.
 
-## Using the search plugin
+### Using the search plugin
 
 Integrating the search plugin is extremely straight-forward. We simply send through an intent to use the search plugin to the helper, and if required we can attach some searchOptions.
 
@@ -235,7 +236,7 @@ export default Ember.Controller.extend({
 {% endraw %}
 {% endhighlight %}
 
-## Calling events
+### Calling events
 
 Now, that we have our tree setup and we're able to search, we might want to use events to determine when a node is opened or closed. We can find a [list of events](https://github.com/ritesh83/ember-cli-jstree) in the documentation for the addon.
 
@@ -277,7 +278,7 @@ export default Ember.Controller.extend({
 })
 {% endhighlight %}
 
-## Sending actions
+### Sending actions
 
 Sometimes we may want to manually send an action to the tree to tell it to execute on behalf of the user. As an example, we may want a button on the interface to allow the user to close all nodes instead of him/her having to manually go through each node to close them.
 
