@@ -4,4 +4,4 @@ title: Events
 permalink: /events/
 ---
 
-About text goes here
+Events text goes here

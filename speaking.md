@@ -4,4 +4,4 @@ title: Speaking
 permalink: /speaking/
 ---
 
-About text goes here
+Speaking text goes here
