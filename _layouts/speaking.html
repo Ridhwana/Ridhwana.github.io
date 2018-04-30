@@ -9,5 +9,15 @@ layout: default
 
   {{ content }}
 
-
+  <ul class="speaking__list">
+    {% for speech in site.data.speaking %}
+      <li class="speaking__item">
+        <div>{{ speech.name }}</div>
+        <div>{{ speech.conference }}</div>
+        <div>{{ speech.location }}</div>
+        <div>{{ speech.video }}</div>
+        <div>{{ speech.abstract }}</div>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
