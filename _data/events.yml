@@ -2,27 +2,27 @@
   role: organizer
   year: 2018
   recurring: monthly
-  link: https://meetup.com/
+  link: https://www.meetup.com/Women-in-Tech-JHB/
   logo: women_in_tech
   location: Johannesburg, South Africa
-  description: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
+  description: Women in Tech ZA is a meetup that focuses on empowering women in tech and providing an environment that breeds innovation and creativity through learning and collaboration. Meetups are currently run on a monthly basis.
 
 - name: Ladies that UX
   role: organizer
   year: 2017
   recurring: monthly
-  link: https://meetup.com/
+  link: https://www.meetup.com/Ladies-that-UX-Johannesburg/
   logo: ltux
   location: Johannesburg, South Africa
-  description: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
+  description: LTUX is a meetup that serves a space for women to learn more about user experience whilst building connections. I assist in organizing monthly events, whereby each event consists of a presentation as well as a workshop that provides practical skills to the attendees.
 
 - name: Railsbridge 2018
   role: organizer
   recurring: quarterly
-  link: https://meetup.com/
+  link: https://www.meetup.com/RailsBridge-Johannesburg/
   logo: railsbridge
   location: Johannesburg, South Africa
-  description: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
+  description: RailsBridge Workshops are free courses targeted at groups of people that are under-represented in tech. The courses cover an introduction to programming concepts, the available tools, Rails, Ruby, HTML, CSS, and JavaScript. I currently assist in organizing these workshops quarterly.
 
 - name: Black Girls Code
   role: mentor
@@ -32,18 +32,18 @@
   location: Johannesburg, South Africa & Silicon Valley, USA
   description: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
 
-- name: Rails Girls 2015
-  role: organizer
+- name: Rails Girls 2014
+  role: coach
   recurring: null
-  link: https://railsgirls
+  link: http://railsgirls.com/johannesburg.html
   logo: railsgirls
   location: Johannesburg, South Africa
-  description: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
+  description: Rails Girls is a free workshop that is aimed at teaching girls to code. During the free two-day workshop we explored the magical world of Ruby on Rails, and built an application together. We covered designing, prototyping and coding.
 
-- name: Space and Aviation Camp
-  role: robotics lead facilitator
+- name: GFPA Foundation Aviation and Space Camp 2018
+  role: lead facilitator for full day robotics workshop
   recurring: null
-  link: https://railsgirls
-  logo: railsgirls
-  location: Johannesburg, South Africa
+  link: http://www.womenandaviation.com/news/gfpa-foundation-aviation-and-space-camp-2018/
+  logo: gpfa
+  location: Magaliesberg, South Africa
   description: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
