@@ -25,11 +25,20 @@
   location: Johannesburg, South Africa
   abstract: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
 
-# - title:
-#   conference: Jozi.js
-#   year: 2018
-#   video: https://meetup.com/
-#   slides: https://www.slideshare.net/RidhwanaKhan/ruby-fuza
-#   logo: women_in_tech
-#   location: Johannesburg, South Africa
-#   abstract: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
+- title:
+  conference: Jozi.js
+  year: 2018
+  video: https://meetup.com/
+  slides: https://www.slideshare.net/RidhwanaKhan/ruby-fuza
+  logo: women_in_tech
+  location: Johannesburg, South Africa
+  abstract: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
+
+- title:
+  conference: Pycon Balkan
+  year: 2018
+  video: https://meetup.com/
+  slides: https://www.slideshare.net/RidhwanaKhan/ruby-fuza
+  logo: women_in_tech
+  location: Johannesburg, South Africa
+  abstract: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
