@@ -1,7 +1,7 @@
----
+<!-- ---
 layout: portfolio
 title: Portfolio
 permalink: /portfolio/
 ---
 
-About text goes here
+About text goes here -->
