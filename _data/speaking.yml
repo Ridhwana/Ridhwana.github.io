@@ -1,44 +1,73 @@
-- title: Journey through the eyes of a newbie female developer
-  conference: Pycon ZA
-  year: 2010
-  video: https://meetup.com/
-  slides: https://www.slideshare.net/RidhwanaKhan/journey-throughtheeyesofanewbiefemaledeveloper
-  logo: women_in_tech
-  location: Johannesburg, South Africa
-  abstract: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
+- title: Expand your toolkit for self-development
+  conference: Pycon Balkan
+  year: 2018
+  video: http://pyconbalkan.com/#
+  slides: null
+  tags: pycon
+  location: Balkan, Serbia
+  abstract: <p>Moving towards consulting in the recent years has provided me with the opportunity to integrate within different clients environments and teams, thus exposing me to the unique set of learnings and challenges that come with each environment.</p> <p>I’ve found that adapting, but not necessarily conforming has been essential. Challenging the norms, being curious and always learning has been key tools in my toolkit over the years.</p> <p>I’d like to spend some time unpacking my tools to show you how I’ve used them to twist, turns and fasten the bolts of my journey in order to create a steady and stable structure that has allowed me to grow and thrive within the development community.</p>
 
-- title: Building better Programming interfaces
-  conference: RubyFuza
-  year: 2015
-  video: https://meetup.com/
-  slides: https://www.slideshare.net/RidhwanaKhan/ruby-fuza
-  logo: women_in_tech
+
+- title: Javascript under the hood
+  conference: Jozi.js
+  year: 2018
+  video: null
+  slides: https://www.slideshare.net/RidhwanaKhan/javascript-under-the-hood-106804083
+  tags: javascript
   location: Johannesburg, South Africa
-  abstract: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
+  abstract: <p>According to Github statistics, Javascript is the most used language today.</p> <p> As new Javascript frameworks and libraries are released, teams are utilizing them across all levels of the stack - the frontend, backend, desktop apps, hybrid apps, embedded devices and so much more. There are many developers that are using Javascript every day, all day - however, many of us haven’t really delved deep into understanding the internals. Newer frameworks have made it such that developers can build full applications without ever learning about things like the javascript engine, callback queues, runtime, call stacks, concurrency, event loops, and the V8 engine.Understanding the nuts and bolts of javascript is no longer a requirement to be able to build applications, however, knowing the details assist developers to be able to build better, cleaner and optimized applications.<br><br>During this talk, I’d like to provide you with fresh insights on how Javascript works under the hood!</p>
 
 - title: Lessons Learnt in Pursuit of Growth
   conference: RubyFuza
   year: 2018
-  video: https://meetup.com/
+  video: https://www.youtube.com/watch?v=AVQ84RkQyms
   slides: https://www.slideshare.net/RidhwanaKhan/ruby-fuza
-  logo: women_in_tech
+  tags: rubyfuza
+  location: Johannesburg, South Africa
+  abstract: <p>Growth has always been a vital part in ensuring that I lead a meaningful career.</p> <p>Recently, I’ve been given the opportunity to be a part of a Techwomen program in Silicon Valley, and it has expanded my mind to lessons that have helped me to progress in my career.</p><p>I’d love to share my learnings around the value of mentorship, diversity in leadership, the art of storytelling and the gratification of social impact.</p>
+
+- title: Building a better programming interface for your application
+  conference: RubyFuza
+  year: 2015
+  video: null
+  slides: null
+  tags: rubyfuza
+  location: Johannesburg, South Africa
+  abstract: <p>We are moving towards an era where API’s are now forming the crux of communication between different applications.</p><p>Hence, we need to ensure that our API's follow a good design and architecture, so that integration between different applications can be accomplished with minimal complexity and maximum efficiency.</p><p>In this talk, I would like to explore the JSON API spec, benefits and disadvantages of micro services, Rails 5 for your JSON API's, and the tools and workflow that, we as developers, can use to minimise delays when working in big teams, asynchronously, on the frontend and API.</p>
+
+- title: Journey through the eyes of a newbie female developer
+  conference: Pycon ZA
+  year: 2010
+  video: https://www.youtube.com/watch?v=KXPN4UnrmuA
+  slides: https://www.slideshare.net/RidhwanaKhan/journey-throughtheeyesofanewbiefemaledeveloper
+  tags: pycon
+  location: Johannesburg, South Africa
+  abstract: <p>Graduating from a 90% male computer science class, to an initially 100% male software development team, finally allowed me to realise that there is a dire lack of women in the computer science field.</p><p>Entering this industry in a minority invokes initial feelings of the need to constantly prove oneself and one's capabilities – normally this puts one at an immediate disadvantage. However, given the correct circumstances, surrounding environments and attitudes, these adverse feelings can quickly be replaced with self-confidence. I was fortunate enough in my daily working environment to have my opinion given the weight that it deserved.</p><p>However, experience has also taught me that the sailing is not always so smooth within every aspect of the development field. Certain environments are a lot less welcoming to women because of the strange misconception that they are going against the norms of society.</p><p>As a newbie, within the development industry, one has to be able to adapt and have an open mind to gain unbounded knowledge and learning experiences. The world of development is a polyglot environment and striving to build an ambitious career involves lots of hard work and dedication.</p><p>I would like to take the audience on a journey to experience the obstacles, growth and challenges that I’ve faced. I also aim to provide concrete suggestions on increasing female willingness to join the tech industry, and improving co-existence in the development environment.As a developer, my goal is to provide inspiration to capable young women, to fathers who have daughters, brothers who have sisters, and men who have female colleagues.</p>
+
+
+- title:
+  conference: Dev Podcast Zero One
+  year: 2018
+  video: https://www.youtube.com/
+  slides: https://www.slideshare.net/RidhwanaKhan/ruby-fuza
+  tags: women_in_tech
   location: Johannesburg, South Africa
   abstract: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
 
 - title:
-  conference: Jozi.js
+  conference: Dev Podcast LTUX
   year: 2018
-  video: https://meetup.com/
+  video: https://www.youtube.com/
   slides: https://www.slideshare.net/RidhwanaKhan/ruby-fuza
-  logo: women_in_tech
+  tags: women_in_tech
   location: Johannesburg, South Africa
   abstract: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
 
 - title:
-  conference: Pycon Balkan
+  conference: Kasi Maths podcast
   year: 2018
-  video: https://meetup.com/
+  video: https://www.youtube.com/
   slides: https://www.slideshare.net/RidhwanaKhan/ruby-fuza
-  logo: women_in_tech
+  tags: women_in_tech
   location: Johannesburg, South Africa
   abstract: Humpty Fumpty sat on teh wall, Humpty Dumpty had a great fall. All the kings horses and all the kings man, couldn't put humpty dumpty together again.
