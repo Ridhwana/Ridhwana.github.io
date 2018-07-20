@@ -12,11 +12,15 @@ layout: default
   <ul class="speaking__list">
     {% for speech in site.data.speaking %}
       <li class="speaking__item">
-        <div>{{ speech.title }}</div>
+        <div class="speaking__conference-logo">
+          <img src="/assets/images/speaking/{{ speech.conference_logo }}"/>
+        </div>
+        <div class="speech__title">{{ speech.title }}</div>
         <div>{{ speech.name }}</div>
         <div>{{ speech.conference }}</div>
         <div>{{ speech.location }}</div>
         <div>{{ speech.media }}</div>
+        <div>{{ speech.embed }}</div>
         <div>{{ speech.abstract }}</div>
       </li>
     {% endfor %}
