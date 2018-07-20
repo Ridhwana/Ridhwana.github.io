@@ -14,6 +14,7 @@ $grid-gap: 20px
     grid-template-columns: 50% 50%
 
   @include media-query($mobile-large)
+    text-align: center
     grid-template-columns: 100%
 
 .events__item
@@ -34,13 +35,17 @@ $grid-gap: 20px
   grid-template-rows: 110px
   grid-gap: $grid-gap
 
-  @include media-query($tablet)
-    grid-template-columns: 100%
-
   @include media-query($desktop)
     grid-template-columns: 30% 70%
 
+  @include media-query($tablet)
+    grid-template-columns: 35% 65%
+
+  @include media-query($mobile-large)
+    grid-template-columns: 100%
+
 .event__logo
+  text-align: center
   img
     max-height: 100%
 
