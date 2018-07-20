@@ -1,6 +1,6 @@
 <!-- ---
 layout: speaking
-title: Speaking
+title: Speaking & Podcasts
 permalink: /speaking/
 ---
 
