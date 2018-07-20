@@ -1,7 +1,10 @@
+$logo-width: 20%
+$grid-gap: 20px
+
 .events__list
   display: grid
-  grid-template-columns: 32% 32% 32%
-  grid-gap: 30px
+  grid-template-columns: 50% 50%
+  grid-gap: $grid-gap
   list-style: none
   padding: 0
   margin: 0
@@ -17,3 +20,38 @@
   padding: $arbitrary-padding
   border: 1px solid #888
   border-radius: 4px
+
+  a
+    color: inherit
+    text-decoration: none
+
+.events__item:hover
+  background: whitesmoke
+
+.event__overview
+  display: grid
+  grid-template-columns: $logo-width 80%
+  grid-template-rows: 110px
+  grid-gap: $grid-gap
+
+  @include media-query($tablet)
+    grid-template-columns: 100%
+
+  @include media-query($desktop)
+    grid-template-columns: 30% 70%
+
+.event__logo
+  img
+    max-height: 100%
+
+.event__name
+  text-transform: uppercase
+  font-weight: bold
+
+.event__role
+  font-weight: 500
+
+.label
+  font-size: 14px
+  text-transform: uppercase
+  margin: 0 12px
