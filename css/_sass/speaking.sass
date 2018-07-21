@@ -7,6 +7,9 @@ $grid-gap: 20px
   grid-gap: $arbitrary-padding
   padding: 0
 
+  @include media-query($tablet)
+    text-align: center
+  
 .speaking__item
   padding: $arbitrary-padding
   border: 1px solid #888
@@ -31,6 +34,9 @@ $grid-gap: 20px
   display: grid
   grid-template-columns: 50% 50%
   grid-gap: $grid-gap
+
+  @include media-query($tablet)
+    grid-template-columns: 100%
 
 .speech__overview-details
   font-style: italic
