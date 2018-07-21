@@ -15,13 +15,23 @@ layout: default
         <div class="speaking__conference-logo">
           <img src="/assets/images/speaking/{{ speech.conference_logo }}"/>
         </div>
+
         <div class="speech__title">{{ speech.title }}</div>
-        <div>{{ speech.name }}</div>
-        <div>{{ speech.conference }}</div>
-        <div>{{ speech.location }}</div>
-        <div>{{ speech.media }}</div>
-        <div>{{ speech.embed }}</div>
-        <div>{{ speech.abstract }}</div>
+
+        <div class="speech__overview">
+          <div class="speech__details">
+            <div class="speech__overview-details">
+              <div>{{ speech.conference }} ({{ speech.year }})</div>
+              <div>{{ speech.location }}</div>
+              <div><a href="{{ speech.media }}">{{ speech.media }}</a></div>
+            </div>
+            <div class="speech__abstract">{{ speech.abstract }}</div>
+          </div>
+
+          <div class="speech__media-embed">{{ speech.embed }}</div>
+        </div>
+
+
       </li>
     {% endfor %}
   </ul>
