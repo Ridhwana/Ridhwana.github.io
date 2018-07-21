@@ -8,6 +8,7 @@ keywords: "react"
 reading_time: '5 min'
 show_excerpts: true
 excerpt: "I've been investing a lot of time recently in using React and I'd like to share with you how to build a simple react app from the basics..."
+categories: articles
 ---
 
 I've been investing a lot of time recently in using React and I'd like to share with you how to build a simple react app from the basics. Since React does not follow strong setup conventions, there are many starter kits to assist in getting your first React app up and running. However, I firmly believe in starting simple and thereafter improving as one gets more familiar with a tool or library.

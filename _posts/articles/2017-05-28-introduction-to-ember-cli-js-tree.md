@@ -8,6 +8,8 @@ keywords: "ember"
 reading_time: '10 min'
 show_excerpts: true
 excerpt: "Recently, I'd been tasked with creating a sidebar. Sounds easy right? Wellllll not actually... let me elaborate..."
+categories: articles
+
 ---
 
 
