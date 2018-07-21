@@ -1,13 +1,13 @@
-- title: Expand your toolkit for self-development
-  conference: Pycon Balkan
-  conference_logo: pycon_balkan.svg
-  year: 2018
-  media: http://pyconbalkan.com/#
-  embed: null
-  slides: null
-  tags: pycon
-  location: Balkan, Serbia
-  abstract: <p>Moving towards consulting in the recent years has provided me with the opportunity to integrate within different clients environments and teams, thus exposing me to the unique set of learnings and challenges that come with each environment.</p> <p>I’ve found that adapting, but not necessarily conforming has been essential. Challenging the norms, being curious and always learning has been key tools in my toolkit over the years.</p> <p>I’d like to spend some time unpacking my tools to show you how I’ve used them to twist, turns and fasten the bolts of my journey in order to create a steady and stable structure that has allowed me to grow and thrive within the development community.</p>
+# - title: Expand your toolkit for self-development
+#   conference: Pycon Balkan
+#   conference_logo: pycon_balkan.svg
+#   year: 2018
+#   media: http://pyconbalkan.com/
+#   embed: <div>Still to come...</div>
+#   slides: null
+#   tags: pycon
+#   location: Balkan, Serbia
+#   abstract: <p>Moving towards consulting in the recent years has provided me with the opportunity to integrate within different clients environments and teams, thus exposing me to the unique set of learnings and challenges that come with each environment.</p> <p>I’ve found that adapting, but not necessarily conforming has been essential. Challenging the norms, being curious and always learning has been key tools in my toolkit over the years.</p> <p>I’d like to spend some time unpacking my tools to show you how I’ve used them to twist, turns and fasten the bolts of my journey in order to create a steady and stable structure that has allowed me to grow and thrive within the development community.</p>
 
 
 - title: Javascript under the hood
@@ -15,11 +15,11 @@
   conference_logo: jozi_js.jpeg
   year: 2018
   media: null
-  embed: null
+  embed: <div>Video was not released...</div>
   slides: https://www.slideshare.net/RidhwanaKhan/javascript-under-the-hood-106804083
   tags: javascript
   location: Johannesburg, South Africa
-  abstract: <p>According to Github statistics, Javascript is the most used language today.</p> <p> As new Javascript frameworks and libraries are released, teams are utilizing them across all levels of the stack - the frontend, backend, desktop apps, hybrid apps, embedded devices and so much more. There are many developers that are using Javascript every day, all day - however, many of us haven’t really delved deep into understanding the internals. Newer frameworks have made it such that developers can build full applications without ever learning about things like the javascript engine, callback queues, runtime, call stacks, concurrency, event loops, and the V8 engine.Understanding the nuts and bolts of javascript is no longer a requirement to be able to build applications, however, knowing the details assist developers to be able to build better, cleaner and optimized applications.<br><br>During this talk, I’d like to provide you with fresh insights on how Javascript works under the hood!</p>
+  abstract: <p>According to Github statistics, Javascript is the most used language today.</p> <p> As new Javascript frameworks and libraries are released, teams are utilizing them across all levels of the stack - the frontend, backend, desktop apps, hybrid apps, embedded devices and so much more.</p><p> There are many developers that are using Javascript every day, all day - however, many of us haven’t really delved deep into understanding the internals. Newer frameworks have made it such that developers can build full applications without ever learning about things like the javascript engine, callback queues, runtime, call stacks, concurrency, event loops, and the V8 engine. Understanding the nuts and bolts of javascript is no longer a requirement to be able to build applications, however, knowing the details assist developers to be able to build better, cleaner and optimized applications.</p><p>During this talk, I’d like to provide you with fresh insights on how Javascript works under the hood!</p>
 
 - title: Lessons Learnt in Pursuit of Growth
   conference: RubyFuza
@@ -37,7 +37,7 @@
   conference_logo: rubyfuza.png
   year: 2015
   media: null
-  embed: null
+  embed: <div>Video was not released...</div>
   slides: null
   tags: rubyfuza
   location: Johannesburg, South Africa
@@ -48,7 +48,7 @@
   conference_logo: pyconza.jpg
   year: 2010
   media: https://www.youtube.com/watch?v=KXPN4UnrmuA
-  embed: null
+  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/KXPN4UnrmuA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   slides: https://www.slideshare.net/RidhwanaKhan/journey-throughtheeyesofanewbiefemaledeveloper
   tags: pycon
   location: Johannesburg, South Africa
@@ -60,7 +60,7 @@
   conference_logo: zadevchat.png
   year: 2017
   media: https://zadevchat.io/72/
-  embed: null
+  embed: <a href="https://zadevchat.io/72/">https://zadevchat.io/72/</a>
   slides: null
   tags: ltux
   location: Johannesburg, South Africa
@@ -71,8 +71,19 @@
   conference_logo: zadevchat.png
   year: 2015
   media: https://zadevchat.io/6/
-  embed: null
+  embed: <a href="https://zadevchat.io/6/">https://zadevchat.io/6/</a>
   slides: null
   tags: zero-one
   location: Johannesburg, South Africa
   abstract: <p>Tonight we chat to the team behind the newly announced company Zero One!.</p>
+#
+# - title: Kasi Maths Interview
+#   conference: Radiostation
+#   conference_logo: zadevchat.png
+#   year: 2015
+#   media: https://zadevchat.io/6/
+#   embed: null
+#   slides: null
+#   tags: zero-one
+#   location: Johannesburg, South Africa
+#   abstract: <p>Tonight we chat to the team behind the newly announced company Zero One!.</p>
