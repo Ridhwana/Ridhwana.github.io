@@ -27,6 +27,7 @@ twitter_username: Ridhwana_K
 github_username:  Ridhwana
 linkedin_username:  ridhwanakhan
 instagram_username:  ridhwanakhan
+google_analytics: UA-99386765-1
 
 # Build settings
 markdown: kramdown
@@ -35,7 +36,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-google_analytics: UA-99386765-1
 
 sass:
   sass_dir: css/_sass
