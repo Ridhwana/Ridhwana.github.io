@@ -1,21 +1,31 @@
-# - title: Expand your toolkit for self-development
-#   conference: Pycon Balkan
-#   conference_logo: pycon_balkan.svg
-#   year: 2018
-#   media: http://pyconbalkan.com/
-#   embed: <div>Still to come...</div>
-#   slides: null
-#   tags: pycon
-#   location: Balkan, Serbia
-#   abstract: <p>Moving towards consulting in the recent years has provided me with the opportunity to integrate within different clients environments and teams, thus exposing me to the unique set of learnings and challenges that come with each environment.</p> <p>I’ve found that adapting, but not necessarily conforming has been essential. Challenging the norms, being curious and always learning has been key tools in my toolkit over the years.</p> <p>I’d like to spend some time unpacking my tools to show you how I’ve used them to twist, turns and fasten the bolts of my journey in order to create a steady and stable structure that has allowed me to grow and thrive within the development community.</p>
+- title: Expand your toolkit for self-development
+  conference: Pycon Balkan
+  conference_logo: pycon_balkan.svg
+  year: 2018
+  media: null
+  embed: <div>Still to come</div>
+  slides: <div>Still to come</div>
+  tags: pycon
+  location: Balkan, Serbia
+  abstract: <p>Moving towards consulting in the recent years has provided me with the opportunity to integrate within different clients environments and teams, thus exposing me to the unique set of learnings and challenges that come with each environment.</p> <p>I’ve found that adapting, but not necessarily conforming has been essential. Challenging the norms, being curious and always learning has been key tools in my toolkit over the years.</p> <p>I’d like to spend some time unpacking my tools to show you how I’ve used them to twist, turns and fasten the bolts of my journey in order to create a steady and stable structure that has allowed me to grow and thrive within the development community.</p>
 
+- title: Problem Solving
+  conference: ORSSA Ada Lovelace Day 2018
+  conference_logo: ada_lovelace.jpeg
+  year: 2018
+  media: null
+  embed: <div>No video taken</div>
+  slides: <div>Still to come</div>
+  tags: ada lovelace
+  location: Johannesburg, South Africa
+  abstract: <p>As humans we are placed in complex environments, where we are required to provide solutions to the problems that we encounter on a daily basis. This can be within your career, your personal life, or your business, and we know that many times solving the problem isn’t as easy as we’d like or hoped it to be.</p><p>During this talk, I’d like to walk the audience through problem solving techniques that I use on a daily basis whilst building software that impacts peoples lives. I’d like to use this opportunity to discuss some of the more complex problems that I’ve had to solve over the past year, and focus on the process to obtaining valuable solutions..</p>
 
 - title: Javascript under the hood
   conference: Jozi.js
   conference_logo: jozi_js.jpeg
   year: 2018
-  media: null
-  embed: <div>Video was not released...</div>
+  media: https://www.youtube.com/watch?v=1XViCZPflDQ
+  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/1XViCZPflDQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   slides: https://www.slideshare.net/RidhwanaKhan/javascript-under-the-hood-106804083
   tags: javascript
   location: Johannesburg, South Africa
