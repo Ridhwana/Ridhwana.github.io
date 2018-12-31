@@ -26,9 +26,7 @@ This particular sidebar contains the following challenges:
 
 
 
-Now, usually search inputs are pretty easy right? Most definitely, but more so when they are implemented on a flat structure. However, my search is implemented on a **tree structure**, which in turn means that I need to give the user experience special consideration. To elaborate, if I search for a match on a word that is nested two levels deep on one path of a tree, and three level deeps on another path of the tree, I want the user to be able to see the path leading up to the matching keyword, as well be able see the the matched word being highlighted. So, basically just like this:
-
-![ember-cli-jstreejs](/images/search.png)
+Now, usually search inputs are pretty easy right? Most definitely, but more so when they are implemented on a flat structure. However, my search is implemented on a **tree structure**, which in turn means that I need to give the user experience special consideration. To elaborate, if I search for a match on a word that is nested two levels deep on one path of a tree, and three level deeps on another path of the tree, I want the user to be able to see the path leading up to the matching keyword, as well be able see the the matched word being highlighted. 
 
 After much frustration, my team and I discovered a very feature filled [jsTree jquery plugin](https://www.jstree.com/). And as a bonus, I found an [ember addon]( https://github.com/ritesh83/ember-cli-jstree) that wrapped the jquery plugin, and was perfect for my Ember project.
 
