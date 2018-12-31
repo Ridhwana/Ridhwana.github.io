@@ -1,0 +1,21 @@
+.img--split
+  height: 300px
+  margin: 0 2em
+
+.section--split
+  display: flex
+  flex-direction: row
+  margin: 1em 0
+  align-items: center
+
+.section__text
+  margin: 0 2em
+
+
+@include media-query($mobile-large)
+  .section--split
+    flex-direction: column
+
+  .img--split
+    width: 80%
+    height: auto
