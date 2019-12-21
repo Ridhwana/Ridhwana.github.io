@@ -1,5 +1,5 @@
 ---
 layout: events
-title: Events
+title: Community
 permalink: /events/
 ---
