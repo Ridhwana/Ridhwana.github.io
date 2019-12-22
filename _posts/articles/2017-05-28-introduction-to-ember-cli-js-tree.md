@@ -7,7 +7,8 @@ comments: false
 keywords: "ember"
 reading_time: '10 min'
 show_excerpts: true
-excerpt: "Recently, I'd been tasked with creating a sidebar. Sounds easy right? Wellllll not actually... let me elaborate..."
+excerpt: "Recently, I'd been tasked with creating a sidebar. Sounds easy right? Wellllll not actually... let me elaborate.This particular sidebar contains the following challenges;
+It contains a nested ui and data structure, three levels deep to be exact and it requires ajax (or in my case Ember asynchronous calls) to three separate endpoints to receive the data..."
 categories: articles
 ---
 

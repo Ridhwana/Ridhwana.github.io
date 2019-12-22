@@ -7,7 +7,7 @@ comments: false
 keywords: "time management"
 reading_time: '5 min'
 show_excerpts: true
-excerpt: "To me, the most amazing feeling in the world is, when I create something, out of nothing, by using code.  I feel utterly rewarded and fulfilled when ..."
+excerpt: "To me, the most amazing feeling in the world is, when I create something, out of nothing, by using code.  I feel utterly rewarded and fulfilled when I've been struggling with a problem, and finally that light dawns upon me after hours of hard work and discipline..."
 categories: articles
 ---
 

@@ -2,18 +2,16 @@
   list-style: none
   display: grid
   grid-template-columns: 1fr
-  grid-gap: 2em
 
   @include media-query($mobile-large)
     padding: 0
 
 .article__item
-  margin: 2em 0
+  padding: 3em 0
   border-bottom: 1px solid #cecdcd
   max-width: 60%
-  padding-bottom: 10px
 
-  @include media-query($mobile-large)
+  @include media-query($tablet)
     max-width: 100%
 
 .article-item__detail--date
