@@ -23,7 +23,7 @@
 - title: I choose to be the change that I want to see
   conference: Google Women Techmakers
   conference_logo: wtm.png
-  date: 2019
+  date: 23 March, 2019
   media: https://youtu.be/6gYyg1NFtTE
   embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/6gYyg1NFtTE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   slides: <div>None</div>
@@ -31,7 +31,7 @@
   location: Johannesburg, South Africa
   abstract: <p>A tale of my adventures in the tech industry and how I choose to no longer doubt myself as a women in tech. I have found my voice, my courage and my confidence. I choose to be the change that I want to see.</p>
 
-- title: Expand your toolkit for self-development
+- title: Expand your toolkit for self-development (Keynote)
   conference: Pycon Balkan
   conference_logo: pycon_balkan.svg
   date: Mon, 19 November 2018
@@ -56,7 +56,7 @@
 - title: Javascript under the hood
   conference: Jozi.js
   conference_logo: jozi_js.jpeg
-  date: 2018
+  date: 19 July, 2018
   media: https://youtu.be/PXn_luM7V84
   embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/PXn_luM7V84" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   slides: https://www.slideshare.net/RidhwanaKhan/javascript-under-the-hood-106804083
@@ -67,7 +67,7 @@
 - title: Lessons Learnt in Pursuit of Growth
   conference: RubyFuza
   conference_logo: rubyfuza.png
-  date: 2018
+  date: February 2018
   media: https://youtu.be/J0SWkADdicg
   embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/J0SWkADdicg" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   slides: https://www.slideshare.net/RidhwanaKhan/ruby-fuza
@@ -78,7 +78,7 @@
 - title: Building a better programming interface for your application
   conference: RubyFuza
   conference_logo: rubyfuza.png
-  date: 2015
+  date: February 2015
   media: null
   embed: <div>Video was not released</div>
   slides: null
