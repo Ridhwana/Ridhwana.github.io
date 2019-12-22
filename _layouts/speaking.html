@@ -4,13 +4,44 @@ layout: default
 
 <div class="talks__container">
 
-  <!-- <h1 class="talks__sub-header">🎤 Upcoming Conference Talks</h1> -->
 
   <div class="talks__picture">
     <img class="talks__picture-img" src="{{ "/assets/images/ridhwana-presenting.jpg" | absolute_url }}">
   </div>
 
-  <h1 class="talks__sub-header">🎤 Conference Talks</h1>
+  <h1 class="talks__sub-header">🔔 Upcoming Conference Talks</h1>
+  <ul class="talks__list">
+    {% for talk in site.data.upcoming_speaking %}
+      <li class="talk__item">
+        <h3 class="talk-item__name">{{ talk.conference }}</h3>
+        <div class="talk-item__details">
+          <div class="talk-item__detail talk-item__detail--location">
+            <span>
+              <img src="{{ "/assets/images/icons/world-location.svg" | absolute_url }}"/>
+            </span>
+            {{ talk.location }}
+          </div>
+          <div class="talk-item__detail talk-item__detail--date">
+            <span>
+              <img src="{{ "/assets/images/icons/calendar.svg" | absolute_url }}"/>
+            </span>
+            {{ talk.date }}
+          </div>
+          {% if talk.media %}
+            <div class="talk-item__detail talk-item__detail--link">
+              <span>
+                <img src="{{ "/assets/images/icons/link.svg" | absolute_url }}"/>
+              </span>
+                <a href="{{ talk.media }}" target="_blank">Visit Website</a>
+            </div>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+  <h1 class="talks__sub-header">🎤 Past Conference Talks</h1>
   <ul class="talks__list">
     {% for talk in site.data.speaking %}
       <li class="talk__item">
