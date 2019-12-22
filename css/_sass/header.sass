@@ -13,6 +13,9 @@
   height: calc(#{$header-height} - #{$arbitrary-padding * 2})
   vertical-align: middle
 
+  @include media-query($mobile-large)
+    height: calc(#{$header-height} - #{$arbitrary-padding * 3})
+
 .site-nav
   display: inline-block
   line-height: 40px
