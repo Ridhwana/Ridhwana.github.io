@@ -4,6 +4,9 @@
   grid-template-columns: 1fr
   grid-gap: 2em
 
+  @include media-query($mobile-large)
+    padding: 0
+
 .article__item
   margin: 2em 0
   border-bottom: 1px solid #cecdcd

@@ -1,24 +1,26 @@
 .talks__picture-img
   width: calc(100vw - #{$border-padding * 2})
 
-  // @include media-query($mobile-large)
-  //   width: 100vw
-
 .talks__list
-    list-style: none
-    display: grid
-    grid-template-columns: repeat(2, 1fr)
+  list-style: none
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
 
-    @include media-query($tablet)
-      grid-template-columns: 1fr
+  @include media-query($tablet)
+    grid-template-columns: 1fr
 
+  @include media-query($mobile-large)
+    padding: 0
 
 .talk-item__details
-    margin-left: 1em
+  margin-left: 1em
+
+  @include media-query($mobile-large)
+    margin-left: 0
 
 .talk__item
-    margin: 2em 0
-    line-height: 26px
+  margin: 2em 0
+  line-height: 26px
 
 .talk-item__name
   margin: 0 0 0.5em 0

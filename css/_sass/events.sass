@@ -5,16 +5,21 @@
   //   width: 100vw
 
 .events__list
-    list-style: none
-    display: grid
-    grid-template-columns: repeat(2, 1fr)
+  list-style: none
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
 
-    @include media-query($tablet)
-      grid-template-columns: 1fr
+  @include media-query($tablet)
+    grid-template-columns: 1fr
 
+  @include media-query($mobile-large)
+    padding: 0
 
 .event-item__details
-    margin-left: 1em
+  margin-left: 1em
+
+  @include media-query($mobile-large)
+    margin-left: 0
 
 .event__item
     margin: 2em 0
