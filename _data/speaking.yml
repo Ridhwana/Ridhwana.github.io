@@ -98,24 +98,25 @@
   location: Johannesburg, South Africa
   abstract: <p>Tonight we chat to the team behind the newly announced company Zero One!.</p>
 
-# - title: Tech Women Interview
-#   conference: Touch HD Radiostation
-#   conference_logo: zadevchat.png
-#   year: 2018
-#   media: https://zadevchat.io/6/
-#   embed: null
-#   slides: null
-#   tags: techwomen
-#   location: Johannesburg, South Africa
-#   abstract: <p>A chat about the experiences of the Techwomen Program and what does it mean to be a Techwomen alumnae</p>
+- title: Tech Women Interview
+  conference: Touch HD Radiostation
+  conference_logo: zadevchat.png
+  year: 2018
+  media: https://drive.google.com/file/d/1nQjcMmDupGKtxUJXHk0KAOhiEEBD2Brs/view
+  mediaType: google-drive
+  embed: https://drive.google.com/file/d/1nQjcMmDupGKtxUJXHk0KAOhiEEBD2Brs/preview
+  slides: null
+  tags: techwomen
+  location: Johannesburg, South Africa
+  abstract: <p>A chat about the experiences of the Techwomen Program and what does it mean to be a Techwomen alumnae</p>
 
-# - title: Tech Women/Kasi Maths Interview
-#   conference: Tshwane FM Radiostation
-#   conference_logo: zadevchat.png
-#   year: 2018
-#   media: https://zadevchat.io/6/
-#   embed: null
-#   slides: null
-#   tags: techwomen
-#   location: Johannesburg, South Africa
-#   abstract: <p>A chat about the experiences of the Techwomen Program and how the Kasi Maths NPO was stemmed from the program.</p>
+- title: Tech Women/Kasi Maths Interview
+  conference: Tshwane FM Radiostation
+  conference_logo: zadevchat.png
+  year: 2018
+  media: https://zadevchat.io/6/
+  embed: null
+  slides: null
+  tags: techwomen
+  location: Johannesburg, South Africa
+  abstract: <p>A chat about the experiences of the Techwomen Program and how the Kasi Maths NPO was stemmed from the program.</p>
