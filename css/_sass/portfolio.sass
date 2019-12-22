@@ -1,0 +1,43 @@
+.company__list
+  list-style: none
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+
+  @include media-query($tablet)
+    grid-template-columns: repeat(2, 1fr)
+
+  @include media-query($mobile-large)
+    padding: 0
+
+.company-item__details
+  margin-left: 1em
+
+  @include media-query($mobile-large)
+    margin-left: 0
+
+.company__item
+  margin: 2em 0
+  line-height: 26px
+
+.company-item__name
+  margin: 0 0 0.5em 0
+
+.company-item__detail img
+  margin-right: 4px
+
+
+.projects__list
+  list-style: none
+  display: grid
+
+  @include media-query($mobile-large)
+    padding: 0
+
+.project-item__detail
+  line-height: 32px
+.project-item__detail--name
+  margin-bottom: 0.5em
+
+.project-item__detail--sub-text
+  font-size: 12px
+  color: #cecdcd
