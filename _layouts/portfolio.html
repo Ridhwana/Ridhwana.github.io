@@ -2,12 +2,66 @@
 layout: default
 ---
 
-<div class="projects">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<div class="company__container">
 
-  {{ content }}
+
+  <h1>👩🏽‍💻 My Work Experience</h1>
+
+  <div>To get a full view of my working experience, please look through my <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}">LinkedIn profile</a> or <a href="mailto:ridhwana.khan16@gmail.com">send me a mail</a> asking for more details 😊</div>
+
+  <ul class="company__list">
+    {% for company in site.data.companies %}
+      <li class="company__item">
+        <h3 class="company-item__name">{{ company.company }}</h3>
+        <div class="company-item__details">
+          <div class="company-item__detail company-item__detail--date">
+            <span>
+              <img src="{{ "/assets/images/icons/female.svg" | absolute_url }}"/>
+            </span>
+            {{ company.role }}
+          </div>
+          <div class="company-item__detail company-item__detail--location">
+            <span>
+              <img src="{{ "/assets/images/icons/world-location.svg" | absolute_url }}"/>
+            </span>
+            {{ company.location }}
+          </div>
+          <div class="company-item__detail company-item__detail--location">
+            <span>
+              <img src="{{ "/assets/images/icons/calendar.svg" | absolute_url }}"/>
+            </span>
+            {{ company.year }}
+          </div>
+          {% if company.link %}
+            <div class="company-item__detail company-item__detail--link">
+              <span>
+                <img src="{{ "/assets/images/icons/link.svg" | absolute_url }}"/>
+              </span>
+                <a href="{{ company.link }}" target="_blank">Visit Website</a>
+            </div>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h1 class="talks__sub-header">🎨 My Portfolio</h1>
+  <div>I’ve worked on all the frontend developement on the projects outlined below as well as some of the backend components. Majority  of the projects had sensitive user data, hence, I have anonymises the data to maintain the privacy of the companies and their users.</div>
+
+  <ul class="projects__list">
+
+    <li class="project__item">
+      <h3 class="project-item__detail project-item__detail--name">1.Smile Identity Website</h3>
+      <div class="project-item__detail project-item__detail--sub-text">More information can be found on www.smileidentity.com</div>
+      <div class="project-item__detail project-item__detail--screenshots">
+        <img src="{{ "/assets/images/portfolio/smileidentity/website1.png" | absolute_url }}"/>
+        <img src="{{ "/assets/images/portfolio/smileidentity/website2.png" | absolute_url }}"/>
+      </div>
+    </li>
+
+  </ul>
+
+
 
 
 </div>
