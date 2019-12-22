@@ -6,7 +6,6 @@ layout: default
 
   <!-- <h1 class="talks__sub-header">🎤 Upcoming Conference Talks</h1> -->
 
-
   <div class="talks__picture">
     <img class="talks__picture-img" src="{{ "/assets/images/ridhwana-presenting.jpg" | absolute_url }}">
   </div>
@@ -44,42 +43,35 @@ layout: default
   </ul>
 
   <h1 class="talks__sub-header">🎙 Podcast/Interviews</h1>
-
-
-
-  <!-- <ul class="speaking__list">
-    {% for speech in site.data.speaking %}
-      <li class="speaking__item">
-        <div class="speaking__conference-logo">
-          <img src="/assets/images/speaking/{{ speech.conference_logo }}"/>
-        </div>
-
-        <div class="speech__title">{{ speech.title }}</div>
-
-        <div class="speech__overview">
-          <div class="speech__details">
-            <div class="speech__overview-details">
-              <div>{{ speech.conference }} ({{ speech.year }})</div>
-              <div>{{ speech.location }}</div>
-              <div><a href="{{ speech.media }}">{{ speech.media }}</a></div>
-            </div>
-            <div class="speech__abstract">{{ speech.abstract }}</div>
+  <ul class="talks__list">
+    {% for talk in site.data.podcasts %}
+      <li class="talk__item">
+        <h3 class="talk-item__conference">{{ talk.conference }}</h3>
+        <div class="talk-item__details">
+          <div class="talk-item__title">
+            <span>
+              <img src="{{ "/assets/images/icons/info.svg" | absolute_url }}"/>
+            </span>
+            {{ talk.title }}</div>
+          <div class="talk-item__location">
+            <span>
+              <img src="{{ "/assets/images/icons/world-location.svg" | absolute_url }}"/>
+            </span>
+            {{ talk.location }}</div>
+          <div class="talk-item__date">
+            <span>
+              <img src="{{ "/assets/images/icons/calendar.svg" | absolute_url }}"/>
+            </span>
+            {{ talk.date }}</div>
+          <div class="talk-item__link">
+            <span>
+              <img src="{{ "/assets/images/icons/play.svg" | absolute_url }}"/>
+            </span>
+              <a href="{{ talk.media }}">Listen to Interview</a>
           </div>
-
-          {% if speech.mediaType == "google-drive" %}
-            <div class="speech__media-embed">
-              <iframe
-                frameborder="0"
-                width="500"
-                height="70"
-                src="https://drive.google.com/file/d/1nQjcMmDupGKtxUJXHk0KAOhiEEBD2Brs/preview">
-              </iframe>
-            </div>
-          {% else %}
-            <div class="speech__media-embed">{{ speech.embed }}</div>
-          {% endif %}
         </div>
       </li>
     {% endfor %}
-  </ul> -->
+  </ul>
+
 </div>
