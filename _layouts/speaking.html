@@ -16,22 +16,22 @@ layout: default
       <li class="talk__item">
         <h3 class="talk-item__conference">{{ talk.conference }}</h3>
         <div class="talk-item__details">
-          <div class="talk-item__title">
+          <div class="talk-item__detail talk-item__detail--title">
             <span>
               <img src="{{ "/assets/images/icons/info.svg" | absolute_url }}"/>
             </span>
             {{ talk.title }}</div>
-          <div class="talk-item__location">
+          <div class="talk-item__detail talk-item__detail--location">
             <span>
               <img src="{{ "/assets/images/icons/world-location.svg" | absolute_url }}"/>
             </span>
             {{ talk.location }}</div>
-          <div class="talk-item__date">
+          <div class="talk-item__detail talk-item__detail--date">
             <span>
               <img src="{{ "/assets/images/icons/calendar.svg" | absolute_url }}"/>
             </span>
             {{ talk.date }}</div>
-          <div class="talk-item__link">
+          <div class="talk-item__detail talk-item__detail--link">
             <span>
               <img src="{{ "/assets/images/icons/play.svg" | absolute_url }}"/>
             </span>
