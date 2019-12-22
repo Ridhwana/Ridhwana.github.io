@@ -22,18 +22,15 @@
   //   height: auto
 
 
-.page-content
-  background: $primary-color
-  color: $white-color
-
 .home__container
   display: flex
+  align-items: center
 
   @include media-query($tablet)
     flex-direction: column
 
 .home__picture-img
-  height: 450px
+  height: calc(100vh - #{$header-height} - #{$footer-height} - #{$border-padding * 2} - #{2em * 2})
 
 .home__description
   margin: 0 2em

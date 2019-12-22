@@ -10,7 +10,7 @@ body
   margin: 0
   display: grid
   grid-template-areas: "header" "main" "footer"
-  grid-template-rows: $header-height 1fr $footer-height
+  grid-template-rows: $header-height 1fr
   font-family: $base-font-family
   // src: $base-font-src
   font-size: $base-font-size
@@ -28,7 +28,10 @@ main
 footer
   grid-area: footer
   background: $primary-color
-  border-bottom: 3px solid darken($primary-color, 10%)
+  margin: 2em $border-padding
+  color: $white-color
 
 .page-content
-  padding: 4em
+  padding: $border-padding
+  background: $primary-color
+  color: $white-color
