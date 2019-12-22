@@ -30,13 +30,16 @@ layout: default
             <span>
               <img src="{{ "/assets/images/icons/calendar.svg" | absolute_url }}"/>
             </span>
-            {{ talk.date }}</div>
-          <div class="talk-item__detail talk-item__detail--link">
-            <span>
-              <img src="{{ "/assets/images/icons/play.svg" | absolute_url }}"/>
-            </span>
-              <a href="{{ talk.media }}">Watch Video</a>
+            {{ talk.date }}
           </div>
+          {% if talk.media %}
+            <div class="talk-item__detail talk-item__detail--link">
+              <span>
+                <img src="{{ "/assets/images/icons/play.svg" | absolute_url }}"/>
+              </span>
+                <a href="{{ talk.media }}" target="_blank">Watch Video</a>
+            </div>
+          {% endif %}
         </div>
       </li>
     {% endfor %}
@@ -62,13 +65,16 @@ layout: default
             <span>
               <img src="{{ "/assets/images/icons/calendar.svg" | absolute_url }}"/>
             </span>
-            {{ talk.date }}</div>
-          <div class="talk-item__link">
-            <span>
-              <img src="{{ "/assets/images/icons/play.svg" | absolute_url }}"/>
-            </span>
-              <a href="{{ talk.media }}">Listen to Interview</a>
+            {{ talk.date }}
           </div>
+          {% if talk.media %}
+            <div class="talk-item__link">
+              <span>
+                <img src="{{ "/assets/images/icons/play.svg" | absolute_url }}"/>
+              </span>
+                <a href="{{ talk.media }}" target="_blank">Listen to Interview</a>
+            </div>
+          {% endif %}
         </div>
       </li>
     {% endfor %}

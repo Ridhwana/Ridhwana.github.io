@@ -40,12 +40,14 @@ layout: default
             </span>
             {{ event.role }}
           </div>
-          <div class="event-item__detail event-item__detail--link">
-            <span>
-              <img src="{{ "/assets/images/icons/link.svg" | absolute_url }}"/>
-            </span>
-              <a href="{{ event.link }}">View Website</a>
-          </div>
+          {% if event.link %}
+            <div class="event-item__detail event-item__detail--link">
+              <span>
+                <img src="{{ "/assets/images/icons/link.svg" | absolute_url }}"/>
+              </span>
+                <a href="{{ event.link }}" target="_blank">View Website</a>
+            </div>
+          {% endif %}
         </div>
       </li>
     {% endfor %}
