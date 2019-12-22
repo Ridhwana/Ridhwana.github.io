@@ -13,7 +13,7 @@
   height: calc(#{$header-height} - #{$arbitrary-padding * 2})
   vertical-align: middle
 
-  @include media-query($mobile-large)
+  @include media-query($tablet)
     height: calc(#{$header-height} - #{$arbitrary-padding * 3})
 
 .site-nav
@@ -35,7 +35,7 @@
     &:not(:last-child)
       margin-right: 40px
 
-  @include media-query($mobile-large)
+  @include media-query($tablet)
     position: absolute
     top: ($spacing-unit / 2) + 5
     right: $spacing-unit / 2
