@@ -1,1 +1,22 @@
+.talks__picture-img
+  width: calc(100vw - #{$border-padding * 2})
 
+  @include media-query($mobile-large)
+    width: 100vw
+
+.talks__list
+    list-style: none
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+
+    @include media-query($tablet)
+      grid-template-columns: 1fr
+
+.talk-item__conference
+    margin: 0
+
+.talk-item__details
+    margin-left: 1em
+
+.talk__item
+    margin: 2em 0

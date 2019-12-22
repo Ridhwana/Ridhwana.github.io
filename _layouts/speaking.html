@@ -3,16 +3,19 @@ layout: default
 ---
 
 <div class="talks__container">
-  {%- if page.title -%}
-    <h1>{{ page.title }}</h1>
-  {%- endif -%}
 
-  {{ content }}
+  <!-- <h1 class="talks__sub-header">🎤 Upcoming Conference Talks</h1> -->
 
+
+  <div class="talks__picture">
+    <img class="talks__picture-img" src="{{ "/assets/images/ridhwana-presenting.jpg" | absolute_url }}">
+  </div>
+
+  <h1 class="talks__sub-header">🎤 Conference Talks</h1>
   <ul class="talks__list">
     {% for talk in site.data.speaking %}
       <li class="talk__item">
-        <div class="talk-item__conference">{{ talk.conference }}</div>
+        <h3 class="talk-item__conference">{{ talk.conference }}</h3>
         <div class="talk-item__details">
           <div class="talk-item__title">
             <span>
@@ -39,6 +42,8 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
+  <h1 class="talks__sub-header">🎙 Podcast/Interviews</h1>
 
 
 
