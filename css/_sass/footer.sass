@@ -1,25 +1,27 @@
-footer
-  padding: $arbitrary-padding
+.social-media__container
+  display: flex
+  justify-content: flex-end
+  align-items: center
 
-  .social-media__list
-    list-style: none
-    margin: 0
-    padding: 0
-    display: grid
-    grid-template-columns: 25% 25% 25% 25%
-    justify-items: center
+  @include media-query($mobile-large)
+    flex-direction: column
 
-  .social-media__item
-    a
-      color: black
-      text-decoration: none
+.social-media__header
+  font-size: $h2-font-size
+  margin-right: 0.5em
 
-  .social-media__username
-    @include media-query($mobile-large)
-      display: none
+  @include media-query($mobile-large)
+    margin: 1em 0
 
+.social-media__list
+  list-style: none
+  margin: 0
+  padding: 0
+  display: grid
+  grid-template-columns: repeat(4, 50px)
+  justify-items: center
 
-  .social-media__icon
-    width: 40px
-    vertical-align: middle
-    display: inline
+.social-media__icon
+  width: 40px
+  vertical-align: middle
+  display: inline

@@ -1,5 +1,5 @@
 ---
 layout: events
-title: Events
+title: Building Communities
 permalink: /events/
 ---

@@ -1,22 +1,24 @@
-.home
-  display: grid
-  grid-template-columns: 40% 50%
-  height: 100%
+.home__container
+  display: flex
   align-items: center
-  @include media-query($mobile-large)
-    grid-template-columns: 100%
 
-.about-me__image-container
-  text-align: center
+  @include media-query($tablet)
+    flex-direction: column
 
-.about-me__description-container
-  line-height: $base-line-height
+.home__picture-img
+  height: calc(100vh - #{$header-height} - #{$footer-height} - #{$border-padding * 2} - #{2em * 2})
 
-.about-me__image
-  // height: calc(100vh - #{$header-height} - #{$footer-height} - #{$arbitrary-padding * 10})
-  max-width: 60%
-  border-radius: 60%
+.home__description
+  margin: 0 2em
 
-  // @include media-query($mobile-large)
-  //   max-width: 100%
-  //   height: auto
+  @include media-query($tablet)
+    margin: 2em 0
+
+.home__description-intro
+  font-size: $h1-font-size
+
+.home__description-item
+  margin: 2em 0
+
+.home__description-item-header
+  font-size: $h3-font-size

@@ -2,35 +2,31 @@
 layout: default
 ---
 
-<div class="blog">
+<div class="articles__container">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <h1>✍🏽 Articles</h1>
   {%- endif -%}
 
   {{ content }}
 
   {%- if site.categories.articles.size > 0 -%}
-    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
-    <ul class="post__list">
-      {%- for post in site.categories.articles -%}
-      <li class="post__item">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <div class="post-item__meta">{{ post.date | date: date_format }}</div>
+    <ul class="article__list">
+      {%- for article in site.categories.articles -%}
 
-        <div class="post-item__title">
-          <a class="post-item__link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
+      <li class="article__item">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <div class="article-item__detail article-item__detail--date">
+          {{ article.date | date: date_format }}
         </div>
 
-        <!-- {%- if post.description -%}
-          <div>{{ post.description }}</div>
-        {%- endif -%} -->
-
-        {%- if post.show_excerpts -%}
-          <div class="post-item__excerpt">{{ post.excerpt }}</div>
+        <h2 class="article-item__detail article-item__detail--title">
+          <a class="article-item__detail article-item__detail--link" href="{{ article.url | relative_url }}">
+            {{ article.title | escape }}
+          </a>
+        </h2>
+        {%- if article.show_excerpts -%}
+          <div class="article-item__detail article-item__detail--excerpt">{{ article.excerpt }}</div>
         {%- endif -%}
-
       </li>
       {%- endfor -%}
     </ul>

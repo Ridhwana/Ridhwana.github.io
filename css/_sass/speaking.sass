@@ -1,50 +1,27 @@
-$grid-gap: 20px
+.talks__picture-img
+  width: calc(100vw - #{$border-padding * 2})
 
-.speaking__list
-  display: grid
-  grid-template-columns: 100%
-  list-style: none
-  grid-gap: $arbitrary-padding
-  padding: 0
+  @include media-query($mobile-large)
+    width: 100vw
 
-  @include media-query($tablet)
-    text-align: center
+.talks__list
+    list-style: none
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
 
-.speaking__item
-  padding: $arbitrary-padding
-  border: 1px solid #888
-  border-radius: 4px
-  position: relative
+    @include media-query($tablet)
+      grid-template-columns: 1fr
 
-.speaking__conference-logo
-  top: 12px
-  right: 12px
-  position: absolute
 
-  img
-    width: 50px
+.talk-item__details
+    margin-left: 1em
 
-.speech__title
-  font-size: 18px
-  text-transform: uppercase
-  font-weight: bold
-  margin: 12px 0
+.talk__item
+    margin: 2em 0
+    line-height: 26px
 
-.speech__overview
-  display: grid
-  grid-template-columns: 50% 50%
-  grid-gap: $grid-gap
+.talk-item__name
+  margin: 0 0 0.5em 0
 
-  @include media-query($tablet)
-    grid-template-columns: 100%
-
-.speech__overview-details
-  font-style: italic
-
-.speech__abstract
-  margin: 24px 0
-  font-size: 14px
-
-.speech__media-embed
-  align-self: center
-  text-align: center
+.talk-item__detail img
+  margin-right: 4px

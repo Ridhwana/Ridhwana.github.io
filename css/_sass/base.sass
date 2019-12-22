@@ -1,19 +1,24 @@
 html,body
   height: 100%
+//
+// @font-face
+//   font-family: $base-font-family
+//   src: $base-font-family
+
 
 body
   margin: 0
   display: grid
   grid-template-areas: "header" "main" "footer"
-  grid-template-rows: $header-height 1fr $footer-height
+  grid-template-rows: $header-height 1fr
   font-family: $base-font-family
+  // src: $base-font-src
   font-size: $base-font-size
   line-height: $base-line-height
 
 header
   grid-area: header
   display: flex
-  align-items: center
   background: $primary-color
 
 main
@@ -22,7 +27,13 @@ main
 footer
   grid-area: footer
   background: $primary-color
-  border-bottom: 3px solid darken($primary-color, 10%)
+  margin: 2em $border-padding
+  color: $white-color
 
 .page-content
-  padding: $arbitrary-padding calc(#{$arbitrary-padding*2})
+  padding: $border-padding
+  background: $primary-color
+  color: $white-color
+
+  @include media-query($mobile-large)
+    padding: calc(#{$border-padding/2})

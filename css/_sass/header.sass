@@ -1,6 +1,9 @@
 .wrapper
   width: 100%
   padding: $arbitrary-padding
+  background: $secondary-color
+  color: $white-color
+  position: relative
 
 .logo__container
   display: inline-block
@@ -10,9 +13,11 @@
   height: calc(#{$header-height} - #{$arbitrary-padding * 2})
   vertical-align: middle
 
+  @include media-query($mobile-large)
+    height: calc(#{$header-height} - #{$arbitrary-padding * 3})
+
 .site-nav
   display: inline-block
-  // line-height: $base-line-height * $base-font-size * 2.25
   line-height: 40px
   float: right
   padding: 10px 20px
@@ -24,9 +29,7 @@
     display: none
 
   .page-link
-    color: $text-color
     text-decoration: none
-    font-size: 18px
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child)
@@ -34,10 +37,10 @@
 
   @include media-query($mobile-large)
     position: absolute
-    top: 9px
+    top: ($spacing-unit / 2) + 5
     right: $spacing-unit / 2
-    background-color: $background-color
-    border: 1px solid $grey-color
+    background-color:  $secondary-color
+    border: 1px solid $white-color
     border-radius: 5px
     text-align: right
 
@@ -59,7 +62,7 @@
       text-align: center
 
       > svg
-        fill: $grey-color
+        fill: $white-color
 
     input ~ .trigger
       clear: both

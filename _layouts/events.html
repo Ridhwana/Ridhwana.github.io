@@ -2,38 +2,52 @@
 layout: default
 ---
 
-<div class="events">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }} where I organize/coach/mentor</h1>
-  {%- endif -%}
+<div class="events__container">
 
-  {{ content }}
+  <div class="events__picture">
+    <img class="events__picture-img" src="{{ "/assets/images/ridhwana-wit.jpg" | absolute_url }}">
+  </div>
 
+  <h1 class="events__sub-header">🌍 Building inclusive communities</h1>
   <ul class="events__list">
     {% for event in site.data.events %}
-
-      <li class="events__item">
-
-        <a href="{{ event.link }}"  target="_blank">
-
-          <div class="event__overview">
-            <div class="event__logo"> <img src="/assets/images/events/{{ event.logo }}"/></div>
-
-            <div class="event__details">
-              <div class="event__name">{{ event.name }}</div>
-              <div><span class="label"> Role:</span> <span class="event__role">{{ event.role }}</span></div>
-              <!-- <div><span class="label"> Recurring: {{ event.recurring }}</span></div> -->
-              <div><span class="label"> Location: {{ event.location }}</span></div>
+      <li class="event__item">
+        <h3 class="event-item__name">{{ event.name }}</h3>
+        <div class="event-item__details">
+          <div class="event-item__detail event-item__detail--description">
+            <span>
+              <img src="{{ "/assets/images/icons/info.svg" | absolute_url }}"/>
+            </span>
+            <div class="event-item__detail--description-text">{{ event.description }}</div>
+          </div>
+          <div class="event-item__detail event-item__detail--location">
+            <span>
+              <img src="{{ "/assets/images/icons/world-location.svg" | absolute_url }}"/>
+            </span>
+            {{ event.location }}
+          </div>
+          <div class="event-item__detail event-item__detail--date">
+            <span>
+              <img src="{{ "/assets/images/icons/calendar.svg" | absolute_url }}"/>
+            </span>
+            {{ event.date }}
+          </div>
+          <div class="event-item__detail event-item__detail--role">
+            <span>
+              <img src="{{ "/assets/images/icons/female.svg" | absolute_url }}"/>
+            </span>
+            {{ event.role }}
+          </div>
+          {% if event.link %}
+            <div class="event-item__detail event-item__detail--link">
+              <span>
+                <img src="{{ "/assets/images/icons/link.svg" | absolute_url }}"/>
+              </span>
+                <a href="{{ event.link }}" target="_blank">View Website</a>
             </div>
-          </div>
-
-          <div class="event__description">
-            <div>{{ event.description }}</div>
-          </div>
-
-        </a>
+          {% endif %}
+        </div>
       </li>
     {% endfor %}
   </ul>
-
 </div>
