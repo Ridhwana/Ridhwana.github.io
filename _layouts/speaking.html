@@ -2,14 +2,47 @@
 layout: default
 ---
 
-<div class="speaking">
+<div class="talks__container">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
-  <ul class="speaking__list">
+  <ul class="talks__list">
+    {% for talk in site.data.speaking %}
+      <li class="talk__item">
+        <div class="talk-item__conference">{{ talk.conference }}</div>
+        <div class="talk-item__details">
+          <div class="talk-item__title">
+            <span>
+              <img src="{{ "/assets/images/icons/info.svg" | absolute_url }}"/>
+            </span>
+            {{ talk.title }}</div>
+          <div class="talk-item__location">
+            <span>
+              <img src="{{ "/assets/images/icons/world-location.svg" | absolute_url }}"/>
+            </span>
+            {{ talk.location }}</div>
+          <div class="talk-item__date">
+            <span>
+              <img src="{{ "/assets/images/icons/calendar.svg" | absolute_url }}"/>
+            </span>
+            {{ talk.date }}</div>
+          <div class="talk-item__link">
+            <span>
+              <img src="{{ "/assets/images/icons/play.svg" | absolute_url }}"/>
+            </span>
+              <a href="{{ talk.media }}">Watch Video</a>
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+
+  <!-- <ul class="speaking__list">
     {% for speech in site.data.speaking %}
       <li class="speaking__item">
         <div class="speaking__conference-logo">
@@ -28,11 +61,20 @@ layout: default
             <div class="speech__abstract">{{ speech.abstract }}</div>
           </div>
 
-          <div class="speech__media-embed">{{ speech.embed }}</div>
+          {% if speech.mediaType == "google-drive" %}
+            <div class="speech__media-embed">
+              <iframe
+                frameborder="0"
+                width="500"
+                height="70"
+                src="https://drive.google.com/file/d/1nQjcMmDupGKtxUJXHk0KAOhiEEBD2Brs/preview">
+              </iframe>
+            </div>
+          {% else %}
+            <div class="speech__media-embed">{{ speech.embed }}</div>
+          {% endif %}
         </div>
-
-
       </li>
     {% endfor %}
-  </ul>
+  </ul> -->
 </div>
