@@ -1,9 +1,7 @@
 - title: Teaching digital & STEM skills to students in South Africa
   conference: Offerzen Merge
-  conference_logo: wtm.png
   date: Tues, 03 December 2019
   media: https://youtu.be/74Riy3j5AjU
-  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/6gYyg1NFtTE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   slides: https://www.slideshare.net/RidhwanaKhan/teaching-digital-skills-and-stem-to-empower-south-african-students
   tags: women techmakers
   location: Johannesburg, South Africa
@@ -11,10 +9,8 @@
 
 - title: From Strangers to Team Players
   conference: DevFest
-  conference_logo: wtm.png
   date: Saturday, 30 November 2019
   media: https://youtu.be/fn_cDpvLPdU
-  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/6gYyg1NFtTE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   slides: https://www.slideshare.net/RidhwanaKhan/from-strangers-to-team-players-devfest-2019
   tags: women techmakers
   location: Johannesburg, South Africa
@@ -22,10 +18,8 @@
 
 - title: I choose to be the change that I want to see
   conference: Google Women Techmakers
-  conference_logo: wtm.png
   date: 23 March, 2019
   media: https://youtu.be/6gYyg1NFtTE
-  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/6gYyg1NFtTE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   slides: <div>None</div>
   tags: women techmakers
   location: Johannesburg, South Africa
@@ -33,10 +27,8 @@
 
 - title: Expand your toolkit for self-development (Keynote)
   conference: Pycon Balkan
-  conference_logo: pycon_balkan.svg
   date: Mon, 19 November 2018
   media: https://youtu.be/GPE_mdce26c
-  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/GPE_mdce26c" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   slides: https://www.slideshare.net/RidhwanaKhan/expand-your-toolkit-for-self-development-keynote-pycon-balkan-2018
   tags: pycon
   location: Balkan, Serbia
@@ -44,10 +36,8 @@
 
 - title: Problem Solving
   conference: ORSSA Ada Lovelace Day 2018
-  conference_logo: ada_lovelace.jpeg
   date: 2018
   media: null
-  embed: <div>No video taken</div>
   slides: https://www.slideshare.net/RidhwanaKhan/problem-solving-144964156
   tags: ada lovelace
   location: Johannesburg, South Africa
@@ -55,10 +45,8 @@
 
 - title: Javascript under the hood
   conference: Jozi.js
-  conference_logo: jozi_js.jpeg
   date: 19 July, 2018
   media: https://youtu.be/PXn_luM7V84
-  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/PXn_luM7V84" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   slides: https://www.slideshare.net/RidhwanaKhan/javascript-under-the-hood-106804083
   tags: javascript
   location: Johannesburg, South Africa
@@ -66,10 +54,8 @@
 
 - title: Lessons Learnt in Pursuit of Growth
   conference: RubyFuza
-  conference_logo: rubyfuza.png
   date: February 2018
   media: https://youtu.be/J0SWkADdicg
-  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/J0SWkADdicg" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   slides: https://www.slideshare.net/RidhwanaKhan/ruby-fuza
   tags: rubyfuza
   location: Johannesburg, South Africa
@@ -77,10 +63,8 @@
 
 - title: Building a better programming interface for your application
   conference: RubyFuza
-  conference_logo: rubyfuza.png
   date: February 2015
   media: null
-  embed: <div>Video was not released</div>
   slides: null
   tags: rubyfuza
   location: Johannesburg, South Africa
@@ -88,10 +72,8 @@
 
 - title: Journey through the eyes of a newbie female developer
   conference: Pycon ZA
-  conference_logo: pyconza.jpg
   date: 2010
   media: https://youtu.be/vKJzuEDiSNM
-  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/vKJzuEDiSNM" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   slides: https://www.slideshare.net/RidhwanaKhan/journey-throughtheeyesofanewbiefemaledeveloper
   tags: pycon
   location: Johannesburg, South Africa
