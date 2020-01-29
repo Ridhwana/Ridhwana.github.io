@@ -1,6 +1,42 @@
+- title: Kasi Maths 3 Ways to Teach Tech Skills Holistically
+  conference: Offerzen Podcast
+  date: 28 January, 2020
+  media: https://www.offerzen.com/blog/ridhwana-khan-kasi-maths-3-ways-to-teach-tech-skills-holistically
+  slides: null
+  tags: offerzen
+  location: Cape Town, South Africa
+  abstract: <p>Ridhwana Khan, co-founded Kasi Maths in response to something she noticed; South Africa's education system doesn't set learners up well to access and thrive in tech and STEM-related careers. This is especially true for learners from underserved communities who don't have much exposure to tech and experience language barriers in learning. This is why Ridhwana believes skilled professionals/developers have the ability and responsibility to help where they can.</p>
+
+- title: DevFest Speaker Chat
+  conference: Open File Backup
+  date: 30 December, 2019
+  media: https://openfilebackup.net/episode/what-i-learnt-at-devfest-2019/
+  slides: null
+  tags: devfest
+  location: Cape Town, South Africa
+  abstract: <p>DevFest Cape Town in 2019 has a numbe of female speakers. In this episode I speak to some of the speakers like Rebecca Franks from Over, Maia Grotepass from Civic Technologies and Ridhwana Khan at Smile Identity.</p>
+
+- title: Tech Women Interview
+  conference: Touch HD Radiostation
+  date: 2018
+  media: https://drive.google.com/file/d/1nQjcMmDupGKtxUJXHk0KAOhiEEBD2Brs/view
+  mediaType: google-drive
+  slides: null
+  tags: techwomen
+  location: Johannesburg, South Africa
+  abstract: <p>A chat about the experiences of the Techwomen Program and what does it mean to be a Techwomen alumnae</p>
+
+- title: Tech Women/Kasi Maths Interview
+  conference: Tshwane FM Radiostation
+  date: 2018
+  media: null
+  slides: null
+  tags: techwomen
+  location: Johannesburg, South Africa
+  abstract: <p>A chat about the experiences of the Techwomen Program and how the Kasi Maths NPO was stemmed from the program.</p>
+
 - title: Ladies that UX with Inez, Ridhwana & Lara
   conference: ZA Dev Chat
-  conference_logo: zadevchat.png
   date: 2017
   media: https://zadevchat.io/72/
   embed: <a href="https://zadevchat.io/72/">https://zadevchat.io/72/</a>
@@ -11,34 +47,9 @@
 
 - title: Team Zero One
   conference: ZA Dev Chat
-  conference_logo: zadevchat.png
   date: 2015
   media: https://zadevchat.io/6/
-  embed: <a href="https://zadevchat.io/6/">https://zadevchat.io/6/</a>
   slides: null
   tags: zero-one
   location: Johannesburg, South Africa
   abstract: <p>Tonight we chat to the team behind the newly announced company Zero One!.</p>
-
-- title: Tech Women Interview
-  conference: Touch HD Radiostation
-  conference_logo: zadevchat.png
-  date: 2018
-  media: https://drive.google.com/file/d/1nQjcMmDupGKtxUJXHk0KAOhiEEBD2Brs/view
-  mediaType: google-drive
-  embed: https://drive.google.com/file/d/1nQjcMmDupGKtxUJXHk0KAOhiEEBD2Brs/preview
-  slides: null
-  tags: techwomen
-  location: Johannesburg, South Africa
-  abstract: <p>A chat about the experiences of the Techwomen Program and what does it mean to be a Techwomen alumnae</p>
-
-- title: Tech Women/Kasi Maths Interview
-  conference: Tshwane FM Radiostation
-  conference_logo: zadevchat.png
-  date: 2018
-  media: null
-  embed: null
-  slides: null
-  tags: techwomen
-  location: Johannesburg, South Africa
-  abstract: <p>A chat about the experiences of the Techwomen Program and how the Kasi Maths NPO was stemmed from the program.</p>
