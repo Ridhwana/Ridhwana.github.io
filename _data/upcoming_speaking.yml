@@ -1,15 +1,15 @@
-- conference: EmberConf
-  date: 16 March, 2020
-  location: Portland, Oregon
-  media: https://emberconf.com/
-
 - conference: IWD Women Techmakers (GDG Johannesburg)
-  date: 20 April, 2020
+  date: 04 March, 2020
   location: Johannesurg, South Africa
   media: https://www.meetup.com/GDGJohannesburg
 
+- conference: EmberConf
+  date: 16-18 March, 2020
+  location: Portland, Oregon
+  media: https://emberconf.com/
+
 - conference: International Javascript Conference
-  date: 20 April, 2020
+  date: 20-22 April, 2020
   location: London, United Kingdom
   media: https://javascript-conference.com/
 
