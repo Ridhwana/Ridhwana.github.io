@@ -1,3 +1,30 @@
+- title: Solving Problems for African Soil (Keynote)
+  conference: Codemotion Online Tech conference 2020
+  date: 21 October, 2020
+  media: https://www.youtube.com/watch?v=Js_IfaHIP_4
+  slides:
+  tags:
+  location: Online
+  abstract:
+
+- title: Solving Problems for African Soil
+  conference: International Javascript Conference
+  date: 20-22 April, 2020
+  media: https://javascript-conference.com/
+  slides:
+  tags:
+  location: London, United Kingdom (Online)
+  abstract:
+
+- title: Solving Problems for African Soil
+  conference: EmberConf
+  date: 16-18 March, 2020
+  media: https://www.youtube.com/watch?v=Js_IfaHIP_4
+  slides:
+  tags:
+  location: Portland, Oregon (Online)
+  abstract:
+
 - title: Teaching digital & STEM skills to students in South Africa
   conference: Offerzen Merge
   date: Tues, 03 December 2019
@@ -6,6 +33,24 @@
   tags: women techmakers
   location: Johannesburg, South Africa
   abstract: <p>Digital skills and STEM aren’t widely taught in South African schools and, while the government knows this is a problem, they are still working on a solution. We as individuals, organisations and communities in the tech space have the abilities to get involved, and gradually and sustainably improve the lives of students in our country. In this talk, Ridhwana will share her experiences running a non-profit organisation in the education sector, and how she’s built a curriculum for teaching STEM.</p>
+
+- title: Technology Panel
+  conference: Offerzen Merge
+  date: Tues, 03 December 2019
+  media: https://youtu.be/74Riy3j5AjU
+  slides: https://www.slideshare.net/RidhwanaKhan/teaching-digital-skills-and-stem-to-empower-south-african-students
+  tags: women techmakers
+  location: Johannesburg, South Africa
+  abstract: <p>Digital skills and STEM aren’t widely taught in South African schools and, while the government knows this is a problem, they are still working on a solution. We as individuals, organisations and communities in the tech space have the abilities to get involved, and gradually and sustainably improve the lives of students in our country. In this talk, Ridhwana will share her experiences running a non-profit organisation in the education sector, and how she’s built a curriculum for teaching STEM.</p>
+
+- title: DevFest JS Panel
+  conference: DevFest
+  date: Saturday, 30 November 2019
+  media: https://youtu.be/fn_cDpvLPdU
+  slides: https://www.slideshare.net/RidhwanaKhan/from-strangers-to-team-players-devfest-2019
+  tags: women techmakers
+  location: Johannesburg, South Africa
+  abstract: <p>I started my career in corporate, co-founded a company, moved to freelancing and now work in a startup, whilst running an NPO. As my journey continued, I began to realise that the success of the products that I worked on, as well as my professional fulfilment were influenced by the dynamics of the teams I work with. There are many factors that help teams to be effective, conducive to growth and perform better overall. During this talk I’d like to explore some of these elements.</p>
 
 - title: From Strangers to Team Players
   conference: DevFest
