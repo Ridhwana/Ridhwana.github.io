@@ -1,3 +1,21 @@
+- title: Caching strategies on https://dev.to
+  conference: Rocky Mountain Ruby
+  date: 21 September, 2023
+  slides:
+  tags:
+  media: https://www.youtube.com/watch?v=BuxrL8W_EaE&t=3s
+  location: Boulder, Colorado
+  abstract: <p>We’ve always put a lot of effort into performance at DEV (https://dev.to/). We want our users to be able to see their content almost instantaneously when interacting with our site. In order to do so we’ve placed emphasis on caching. We’ve had to ask ourselves questions like what are the right things to cache? Which layer in the stack would be best to cache it? And how will this affect the overall performance?</p> <p>During this presentation, I’d like to show you some of the caching strategies we have in place and discuss how they’ve sped up the interactions within our site.</p>
+
+- title: Caching strategies on https://dev.to
+  conference: Ruby Day Verona
+  date: 21 October, 2023
+  media: https://www.youtube.com/watch?v=fCy_76bS-m4
+  slides:
+  tags:
+  location: Verona, Italy
+  abstract: <p>We’ve always put a lot of effort into performance at DEV (https://dev.to/). We want our users to be able to see their content almost instantaneously when interacting with our site. In order to do so we’ve placed emphasis on caching. We’ve had to ask ourselves questions like what are the right things to cache? Which layer in the stack would be best to cache it? And how will this affect the overall performance?</p> <p>During this presentation, I’d like to show you some of the caching strategies we have in place and discuss how they’ve sped up the interactions within our site.</p>
+
 - title: Solving Problems for African Soil (Keynote)
   conference: Codemotion Online Tech conference 2020
   date: 21 October, 2020
