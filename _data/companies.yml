@@ -1,44 +1,59 @@
+- company: Rails Foundation
+  logo: "/assets/images/company_logos/rails.png"
+  role: Technical Writer
+  year: January 2024 to Present
+  location: Remote
+
 - company: Forem (previously known as DEV)
+  logo: "/assets/images/company_logos/dev.png"
   role: Lead Software Engineer
   year: January 2020 to October 2023
   location: Remote
 
 - company: Smile Identity
+  logo: "/assets/images/company_logos/smile-identity.png"
   role: Senior Software Engineer
   year: October 2018 to January 2020
   location: Remote
 
 - company: Kasi Maths
+  logo: "/assets/images/company_logos/kasi-maths.png"
   role: Co-Founder, Director, Operations
   year: January 2017 to Present
   location: Johannesburg, South Africa
 
 - company: Zero One
+  logo: "/assets/images/company_logos/zero-one.jpg"
   role: Co-Founder & Engineer
   year: May 2016 to September 2018
   location: Remote & Johannesburg, South Africa
 
 - company: LinkedIn
+  logo: "/assets/images/company_logos/linkedin.png"
   role: Mentee
   year: 2017
   location: Silicon Valley, San Francisco
 
 - company: Tech Women
+  logo: "/assets/images/company_logos/techwomen.jpeg"
   role: Alumni
   year: 2017
   location: Silicon Valley, San Francisco
 
 - company: Internet Solutions
+  logo: "/assets/images/company_logos/is.png"
   role: Software Engineer
   year: 2014 to April 2016
   location: Remote & Johannesburg, South Africa
 
 - company: Internet Solutions
+  logo: "/assets/images/company_logos/is.png"
   role: Carrier Engineer
   year: 2013
   location: Remote & Johannesburg, South Africa
 
 - company: Dimension Data
+  logo: "/assets/images/company_logos/is.png"
   role: Graduate
   year: 2012
   location: Remote & Johannesburg, South Africa
