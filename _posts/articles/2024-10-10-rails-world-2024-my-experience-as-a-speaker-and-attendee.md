@@ -2,7 +2,7 @@
 layout: post
 title: "Rails World 2024: My Experience as a Speaker and Attendee"
 description: "My Rails World 2024 experience as a speaker and attendee"
-date: 2024-10-11 12:00:00 +0200
+date: 2024-10-10 22:00:00 +0200
 comments: false
 keywords: "rails"
 reading_time: '5 min'
