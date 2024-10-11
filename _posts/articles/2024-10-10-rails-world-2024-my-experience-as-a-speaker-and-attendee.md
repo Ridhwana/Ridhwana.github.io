@@ -13,9 +13,9 @@ categories: articles
 
 I recently returned from Rails World 2024 in Toronto, Canada, and it has been one of my favorite conferences to date. With a 25-hour flight back to Cape Town, I’ve had plenty of time to reflect on what made this event so special, both as a speaker and an attendee.
 
-<picture>
-  <source media="(max-width: 600px)" srcset="/assets/images/posts/Rails-World-Reel-1-mobile.jpeg">
-  <img src="/assets/images/posts/Rails-World-Reel-1.jpeg" alt="Rails World 2024" title="Rails World 2024 Reel" class="responsive-image"/>
+<picture >
+  <source media="(max-width: 600px)" srcset="/assets/images/posts/Rails-World-Reel-1-mobile.jpeg" class="reel">
+  <img src="/assets/images/posts/Rails-World-Reel-1.jpeg" alt="Rails World 2024" title="Rails World 2024 Reel" class="reel"/>
 </picture>
 
 
@@ -32,8 +32,8 @@ Afterward, I received heartwarming compliments from attendees. Many mentioned ho
 As someone who does not enjoy being put on the spot and often dreads the post-talk Q&A, I appreciated that Rails World allowed for more personal, one-on-one discussions afterward. It was a more relaxed and insightful way to interact with the audience.
 
 <picture>
-  <source media="(max-width: 600px)" srcset="/assets/images/posts/Rails-World-Reel-2-mobile.jpeg">
-  <img src="/assets/images/posts/Rails-World-Reel-2.jpeg" alt="Rails World 2024" title="Rails World 2024 Reel" class="responsive-image"/>
+  <source media="(max-width: 600px)" srcset="/assets/images/posts/Rails-World-Reel-2-mobile.jpeg" class="reel">
+  <img src="/assets/images/posts/Rails-World-Reel-2.jpeg" alt="Rails World 2024" title="Rails World 2024 Reel" class="reel"/>
 </picture>
 
 ## The Rails World Community and Conference Experience
@@ -47,8 +47,8 @@ The fun didn’t stop at the talks. There were great giveaways like a Framework 
 One of the most memorable aspects of the event was meeting so many people I’ve interacted with online. Meeting the Rails documentation team in person was a joy, and I believe it will further improve our already good team dynamics going forward. I also connected with people that I’ve chatted to only online over the past years, and it was a great feeling to see those relationships translate from the online world to real life. To top it all off, I even met another attendee who made the journey all the way from Cape Town, South Africa—what a small world!
 
 <picture>
-  <source media="(max-width: 600px)" srcset="/assets/images/posts/Rails-World-Reel-3-mobile.jpeg">
-  <img src="/assets/images/posts/Rails-World-Reel-3.jpeg" alt="Rails World 2024" title="Rails World 2024 Reel" class="responsive-image"/>
+  <source media="(max-width: 600px)" srcset="/assets/images/posts/Rails-World-Reel-3-mobile.jpeg" class="reel">
+  <img src="/assets/images/posts/Rails-World-Reel-3.jpeg" alt="Rails World 2024" title="Rails World 2024 Reel" class="reel"/>
 </picture>
 
 ## Final Thoughts
